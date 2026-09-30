@@ -1,0 +1,12 @@
+{
+  "CNN": {
+    "image": "dog.jpg",
+    "class": "cat",
+    "softmax": 0.32374587655067444
+  },
+  "DenseNet121": {
+    "image": "dog.jpg",
+    "class": "cat",
+    "softmax": 0.39279723167419434
+  }
+}

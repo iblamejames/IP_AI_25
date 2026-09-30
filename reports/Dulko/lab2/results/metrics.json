@@ -1,0 +1,80 @@
+{
+  "model": "DenseNet121",
+  "seed": 5,
+  "epochs": 8,
+  "best_epoch": 7,
+  "batch_size": 64,
+  "lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0001,
+  "optimizer": "SGD",
+  "scheduler": "CosineAnnealingLR",
+  "train_size": 4000,
+  "validation_size": 1000,
+  "test_size": 8000,
+  "parameters": 6964106,
+  "trainable_parameters": 10250,
+  "test_loss": 0.10976305565238,
+  "test_accuracy": 96.4,
+  "seconds": 103.38661429999775,
+  "device": "NVIDIA GeForce RTX 3070",
+  "torch_version": "2.8.0+cu128",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4300875377655029,
+      "train_accuracy": 87.575,
+      "validation_loss": 0.1039238767027855,
+      "validation_accuracy": 97.4
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.11454794460535049,
+      "train_accuracy": 96.55,
+      "validation_loss": 0.09525935834646225,
+      "validation_accuracy": 97.2
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.09227519062161446,
+      "train_accuracy": 97.15,
+      "validation_loss": 0.08907433241605758,
+      "validation_accuracy": 97.5
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.08189378568530083,
+      "train_accuracy": 97.6,
+      "validation_loss": 0.08716375672817231,
+      "validation_accuracy": 97.6
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.07377630895376205,
+      "train_accuracy": 97.775,
+      "validation_loss": 0.08329402101039886,
+      "validation_accuracy": 97.5
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.07058121925592423,
+      "train_accuracy": 98.075,
+      "validation_loss": 0.08295922100543976,
+      "validation_accuracy": 97.6
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.06407729414105415,
+      "train_accuracy": 98.25,
+      "validation_loss": 0.08170161247253419,
+      "validation_accuracy": 97.7
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.06217679443955421,
+      "train_accuracy": 98.5,
+      "validation_loss": 0.08182897639274597,
+      "validation_accuracy": 97.6
+    }
+  ]
+}
